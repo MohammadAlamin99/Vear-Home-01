@@ -1,0 +1,393 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap');
+
+
+/* Header part start */
+.headerImg img{
+    width: 285px;
+    height: 75px;
+}
+.mainHeader{
+    display: grid;
+    grid-template-columns: 30% 50% 20%;
+    position: relative;
+}
+/* .navigation{
+    display: flex;
+    position: absolute;
+    right: -100px;
+    top: -50px;
+} */
+.navigation ul{
+    display: flex;
+}
+
+.navigation ul li a{
+    color: #3C2C40;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    margin-left: 55px;
+}
+.navigation ul li:hover a{
+   color: #FF8059;
+}
+.navigation ul li:hover img{
+   display: block;
+}
+.navigation{
+    position: relative;
+    margin-top: 30px;
+}
+.navigation ul li img{
+    display: none;
+    /* position: absolute;
+    left: 44px;
+    top: 10px; */
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+
+.headerIcon a i{
+    font-size: 17.52px;
+    margin-left: 26px;
+    color: #3C2C40;
+    transition: all linear .3s;
+}
+.headerIcon a i:hover{
+    color: #FF8059;
+}
+.headerIcon{
+    margin-left: 53px;
+    margin-top: 30px;
+}
+
+/* Header part end */
+
+
+/* banner part css start */
+.bannerText{
+    position: relative;
+}
+
+.ux{
+    position: absolute;
+    left: 0;
+    top: 33px;
+    z-index: -1
+}
+
+.mainBanner{
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+
+
+.bannerImg img{
+    width: 684.97px;
+    height: 695.32px;
+}
+.bannerText{
+    position: relative;
+}
+.bannerText h2{
+    font-size: 90px;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+    color: #3C2C40;
+    line-height: 107px;
+    margin-top: 14rem;
+}
+
+
+
+.commonP p{
+    color: #3C2C40;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.6px;
+    font-family: "Inter", sans-serif;
+    margin-top: 18px;
+
+}
+
+.bannerText button{
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    line-height: 20.34px;
+    color: #FF8059;
+    border: none;
+    background: transparent;
+    margin-top: 42px;
+    cursor: pointer;
+    border-bottom: 1px solid #FF8059;
+}
+
+#Banner{
+    margin-top: 93px;
+    position: relative;
+}
+
+.bannerText img{
+    width: 1000px;
+    height: auto;
+}
+
+/* banner part css end */
+
+
+/* experience part css start */
+.mainExperience{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    position: relative;
+}
+
+.progressBar{
+    padding-top: 30px;
+}
+#Experience{
+    padding-top: 134px;
+    padding-bottom: 134px;
+}
+
+.experienceRight h1{
+    font-size: 350px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: #000000;
+    margin-left: 52px;
+    margin-top: 5rem;
+}
+.experienceRight h2{
+    font-size: 50px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: #3C2C40;
+    line-height: 60px;
+}
+.experienceRight h2{
+    position: absolute;
+    left: 52rem;
+    top: 17rem;
+}
+
+.progressBar h4{
+    font-size: 16px;
+    line-height: 25.6px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: #3C2C40;
+    padding-bottom: 46px;
+}
+.progressBar{
+    position: relative;
+}
+#figma::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 20%;
+    width: 100%;
+    height: 10px;
+    background: #F7F1E9;
+    border-radius: 10px;
+}
+#figma::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 43%;
+    width: 100%;
+    height: 10px;
+    background: #F7F1E9;
+    border-radius: 10px;
+}
+#photoshop::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 65.5%;
+    width: 100%;
+    height: 10px;
+    background: #F7F1E9;
+    border-radius: 10px;
+}
+#photoshop::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 88%;
+    width: 100%;
+    height: 10px;
+    background: #F7F1E9;
+    border-radius: 10px;
+}
+#xd::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 20%;
+    width: 500px;
+    height: 10px;
+    background: #FF8059;
+    border-radius: 10px 0 0 10px;
+}
+#xd::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 43%;
+    width: 370px;
+    height: 10px;
+    background: #FF8059;
+    border-radius: 10px 0 0 10px;
+}
+#invision::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 65%;
+    width: 370px;
+    height: 10px;
+    background: #FF8059;
+    border-radius: 10px 0 0 10px;
+}
+#invision::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 88%;
+    width: 324px;
+    height: 10px;
+    background: #FF8059;
+    border-radius: 10px 0 0 10px;
+}
+
+
+
+/* experience part css end */
+
+/* service part css end */
+
+.mainService{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.downService{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    padding-top: 65px;
+}
+.uiDesign h3{
+    font-size: 24px;
+    font-family: "Poppins", sans-serif;
+    width: 600;
+    color: #FF8059;
+    margin-top: 20px;
+    margin-bottom: 22px;
+}
+.uiDesign{
+    width: 236px;
+}
+
+.abc{
+    padding-top: 135px;
+    padding-bottom: 65px;
+}
+
+/* service part css end */
+
+
+
+/* myWork part css end */
+#myWork{
+    margin-top: 135px;
+}
+.bcd{
+    padding-bottom: 65px;
+}
+
+.workNav{
+    padding-bottom: 65px;
+    margin: auto
+}
+
+.mainMyWork{
+    display: grid;
+    grid-template-columns: 48% 48%;
+    padding-bottom: 135px;
+    grid-gap: 2em;
+}
+.figma h4{
+    padding-bottom: 22px;
+}
+.myworkdown{
+    background: #3f05aa;
+    padding: 30px 41px;
+}
+.workdownImg{
+    background: #ac6905;
+    padding: 117px 70px;
+}
+/* ===== */
+.workdownImg {
+    position: relative;
+}
+.workdownImg1 {
+    position: relative;
+}
+
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 128, 89, 0.767);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: all linear .3s
+}
+
+.figma:hover .overlay {
+    opacity: 1;
+}
+
+.overlay i {
+    font-size: 76px; 
+    cursor: pointer;
+}
+
+.navigation .active a {
+    color: #FF8059; 
+}
+
+.navigation .active img {
+    display: block;
+}
+
+/* myWork part css end */
+
+
+/* creative css start */
+.mainCreative{
+    display: grid;
+    grid-template-columns: 48% 48%;
+    grid-gap: 2em;
+}
+
+
+/* creative css end */
+
+
+
+
+
